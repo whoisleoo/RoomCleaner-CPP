@@ -73,9 +73,7 @@ void consulta(){
 int main(){
 int exit;
 Sleep(500);
-SetConsoleOutputCP(65001);
-setColor(9);
-  cout << "/            Serviços de limpeza de Quartos            /\n";
+SetConsoleOutputCP(65001);                                                          
   setColor(14);
   cout << "Loading = ";
     for(int i = 0; i < loadSize; i++){
@@ -89,6 +87,21 @@ setColor(9);
     Sleep(500);
     system("cls");
     inicio:
+    setColor(15);
+    cout << "  ______                       \n";
+    cout << "  | ___ \\                      \n";
+    cout << "  | |_/ /___   ___  _ __ ___   \n";
+    cout << "  |    // _ \\ / _ \\| '_ ` _ \\  \n";
+    cout << "  | |\\ \\ (_) | (_) | | | | | | \n";
+    cout << "  \\_| \\_\\___/ \\___/|_| |_| |_| \n";  
+
+    setColor(9);
+    cout << " _____ _                             \n";
+    cout << "/  __ \\ |                            \n";
+    cout << "| /  \\/ | ___  __ _ _ __   ___ _ __  \n";
+    cout << "| |   | |/ _ \\/ _` | '_ \\ / _ \\ '__| \n";
+    cout << "| \\__/\\ |  __/ (_| | | | |  __/ |    \n";
+    cout << " \\____/_|\\___|\\__,_|_| |_|\\___|_|    \n\n\n";      
     setColor(9);
     cout << "Bem vindo ";
     setColor(10);
